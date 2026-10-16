@@ -14,7 +14,7 @@ This will work cross-platform, even on platforms where statically linking is mor
 
 `cl-bootstrap.cmake` needs to be included in your project but can mostly be ignored and does not require modification.
 
-The only thing to really note is this needs to be added before `add_executable()` or `add_library()` in your `CMakeLists.txt`:
+This needs to be added before `add_executable()` or `add_library()` in your `CMakeLists.txt`:
 
 ```cmake
 include(${CMAKE_CURRENT_SOURCE_DIR}/cl-bootstrap.cmake)
