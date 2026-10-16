@@ -23,7 +23,7 @@ cl_repo()
 set(CATALOG_REQ_TYPE PREFER_STATIC)
 ```
 
-`PREFER_STATIC` will use static dependencies when available. Use `STATIC` instead to attempt to refuse dynamic linking.
+`PREFER_STATIC` will use static dependencies when available. Use `STATIC` instead to refuse dynamic linking.
 
 ...and then after `add_executable()` or `add_library()` you need:
 
