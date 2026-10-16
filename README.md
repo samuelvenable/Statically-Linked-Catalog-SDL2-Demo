@@ -30,5 +30,3 @@ set(CATALOG_REQ_TYPE PREFER_STATIC)
 ```cmake
 cl_add_dep(MyProject SDL2)
 ```
-
-After that you should be good to go!
