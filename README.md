@@ -1,3 +1,5 @@
+# Statically Linked Catalog SDL2 Demo
+
 Very special thanks to [Grady Link](https://github.com/gradylink) for writing this demo for me!
 
 Test the demo:
