@@ -9,7 +9,6 @@ git clone https://github.com/samuelvenable/Statically-Linked-Catalog-SDL2-Demo
 cd Statically-Linked-Catalog-SDL2-Demo
 cmake .
 cmake --build .
-cd build
 ./demo
 ```
 
