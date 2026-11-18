@@ -23,6 +23,7 @@ set(CATALOG_LOCAL_CACHE ON)
 include("${CMAKE_CURRENT_SOURCE_DIR}/cl-bootstrap.cmake")
 cl_repo()
 
+set(CATALOG_LOCAL_CACHE ON)
 set(CATALOG_FORCE_source_SDL2 TRUE)
 set(CATALOG_REQ_TYPE PREFER_STATIC)
 ```
